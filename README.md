@@ -1,2 +1,3 @@
-# node-infinito-util
-node-infinito-util
+# Documentation
+
+- For Documentation, visit https://platform.infinito.io/docs/
