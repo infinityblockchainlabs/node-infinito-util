@@ -1,6 +1,6 @@
 {
   "name": "node-infinito-util",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Infinito SDK",
   "main": "index.js",
   "directories": {
@@ -9,7 +9,8 @@
   "scripts": {
     "eslint": "eslint .",
     "eslint:fix": "eslint . --fix",
-    "test": "mocha --timeout 10000 --reporter mochawesome --reporter-options reportDir=./build/test-report"
+    "test": "mocha --timeout 10000 --reporter mochawesome --reporter-options reportDir=./build/test-report",
+    "test:nyc": "nyc mocha --timeout 10000 --reporter mochawesome --reporter-options reportDir=./build/test-report"
   },
   "repository": {
     "type": "git",
@@ -27,7 +28,7 @@
   },
   "homepage": "https://platform.infinito.io/",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "sha.js": "^2.4.11"
   },
   "devDependencies": {
@@ -37,6 +38,7 @@
     "log4js": "^3.0.5",
     "mocha": "^5.2.0",
     "mochawesome": "^3.1.1",
+    "nyc": "^14.1.1",
     "winston": "^3.1.0"
   }
 }
