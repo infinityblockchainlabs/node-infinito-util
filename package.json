@@ -28,7 +28,7 @@
   },
   "homepage": "https://platform.infinito.io/",
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "sha.js": "^2.4.11"
   },
   "devDependencies": {
